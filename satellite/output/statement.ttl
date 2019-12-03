@@ -1,0 +1,459 @@
+@prefix : <http://isi.edu/> .
+@prefix dm: <https://w3id.org/satellite/dm/entity/> .
+@prefix dmno: <https://w3id.org/satellite/dm/prop/novalue/> .
+@prefix dmp: <https://w3id.org/satellite/dm/prop/> .
+@prefix dmpq: <https://w3id.org/satellite/dm/prop/qualifier/> .
+@prefix dmpqn: <https://w3id.org/satellite/dm/prop/qualifier/value-normalized/> .
+@prefix dmpqv: <https://w3id.org/satellite/dm/prop/qualifier/value/> .
+@prefix dmpr: <https://w3id.org/satellite/dm/prop/reference/> .
+@prefix dmprn: <https://w3id.org/satellite/dm/prop/reference/value-normalized/> .
+@prefix dmprv: <https://w3id.org/satellite/dm/prop/reference/value/> .
+@prefix dmps: <https://w3id.org/satellite/dm/prop/statement/> .
+@prefix dmpsn: <https://w3id.org/satellite/dm/prop/statement/value-normalized/> .
+@prefix dmpsv: <https://w3id.org/satellite/dm/prop/statement/value/> .
+@prefix dmref: <https://w3id.org/satellite/dm/reference/> .
+@prefix dms: <https://w3id.org/satellite/dm/entity/statement/> .
+@prefix dmt: <https://w3id.org/satellite/dm/prop/direct/> .
+@prefix dmtn: <https://w3id.org/satellite/dm/prop/direct-normalized/> .
+@prefix dmv: <https://w3id.org/satellite/dm/value/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dm:SDQ000001 a wikibase:Item ;
+    rdfs:label "FBI 2016 crimes in the Alabama"@en ;
+    schema:name "FBI 2016 crimes in the Alabama"@en ;
+    skos:prefLabel "FBI 2016 crimes in the Alabama"@en ;
+    p:P127 wds:SDQ000001-d40f89d3-5bcd-485f-85f6-1f716c0fb655 ;
+    p:P1476 wds:SDQ000001-ef44f651-d264-42aa-b91f-a16df6a420ff ;
+    p:P31 wds:SDQ000001-ae5f2874-b92a-4785-a0d9-a4045587d224 ;
+    p:P921 wds:SDQ000001-c1144681-eb06-4756-b785-58e4e27649a2 ;
+    dmp:SDP2004 dms:SDQ000001-6b18d819-ac00-4479-b438-6eab4839ba35 ;
+    dmp:SDP2005 dms:SDQ000001-05c02d91-7555-4553-b3f7-c9d4ad79fb71,
+        dms:SDQ000001-0c4ca7b2-35b4-43a0-9046-76334766f353,
+        dms:SDQ000001-173844c3-e1cf-4032-a7bc-393d6ebd4ad5,
+        dms:SDQ000001-1cec4647-08c1-4540-ad0a-707ea0fb5ad0,
+        dms:SDQ000001-38af3c21-d4c0-42f6-ba8e-dcd6bec6df1e,
+        dms:SDQ000001-8ea2a489-6643-4961-a9bb-d1672582d787,
+        dms:SDQ000001-91bfcd2e-8aab-40bc-a78e-4abdf9fb169c,
+        dms:SDQ000001-939a9fb8-5d6f-4c67-9fbb-fe612820a0fb,
+        dms:SDQ000001-a5a99692-31a3-4209-ac5d-56a3c60f6ed1,
+        dms:SDQ000001-a804b4a1-7d21-4a2d-95da-947c15478d0d,
+        dms:SDQ000001-b69bb9d2-7f31-4d6f-8596-63e36e2de9c6,
+        dms:SDQ000001-f8aa8a44-b8f8-4852-a02f-2c70823fd010 ;
+    dmp:SDP3001 dms:SDQ000001-6e2a9cbe-3333-4842-a3fe-2af7a3763604 ;
+    dmp:SDP3002 dms:SDQ000001-cf352739-10ab-414c-ab3e-beae85cb14db .
+
+wds:SDQ000001-ae5f2874-b92a-4785-a0d9-a4045587d224 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q1172284 .
+
+wds:SDQ000001-c1144681-eb06-4756-b785-58e4e27649a2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P921 "Offenses Known to Law Enforcement by Metropolitan and Nonmetropolitan Counties, 2016"^^xsd:string .
+
+wds:SDQ000001-d40f89d3-5bcd-485f-85f6-1f716c0fb655 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P127 dm:SDQ000006 ;
+    ps:P170 :datamart .
+
+wds:SDQ000001-ef44f651-d264-42aa-b91f-a16df6a420ff a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1476 "FBI 2016 crimes in the Alabama"^^xsd:string ;
+    ps:P170 :datamart .
+
+wds:SDQ000002-18302e65-382b-488e-bed7-66dd9dce2adf a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P127 dm:SDQ000006 ;
+    ps:P170 :datamart .
+
+wds:SDQ000002-ee3b37de-9017-4a46-af9d-2120d7b5c011 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 dm:SDQ000004 .
+
+wds:SDQ000003-1e4fe24a-3cbd-4446-a8e7-c0fa166c0755 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P127 dm:SDQ000006 ;
+    ps:P170 :datamart .
+
+wds:SDQ000003-4d25bbac-7cfb-413a-95d6-6495332a81c8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 dm:SDQ000005 .
+
+wds:SDQ000003-7074250f-ff60-451c-ae8b-07a5d0053d47 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart,
+        "T2WML"^^xsd:string .
+
+wds:SDQ000004-1d45299a-968c-429e-b4a3-8e55b694eb1d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:28326484 .
+
+wds:SDQ000005-7a0d301c-fb41-4852-bb95-23908030b043 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:28326484 .
+
+wds:SDQ000006-df0813de-81b8-43a6-afad-6b98339928d6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:28326484 .
+
+dm:SDQ000002 a wikibase:Item ;
+    rdfs:label "A wikifier file of crime data"@en ;
+    schema:name "A wikifier file of crime data"@en ;
+    skos:prefLabel "A wikifier file of crime data"@en ;
+    p:P127 wds:SDQ000002-18302e65-382b-488e-bed7-66dd9dce2adf ;
+    p:P31 wds:SDQ000002-ee3b37de-9017-4a46-af9d-2120d7b5c011 ;
+    dmp:SDP3003 dms:SDQ000002-695fdca7-bac4-436b-b027-b6b02e5b1ab8 ;
+    dmp:SDP3004 dms:SDQ000002-6094d5b0-c050-414c-9e93-e6afcf7865ee .
+
+dm:SDQ000003 a wikibase:Item ;
+    rdfs:label "A mapping file"@en ;
+    schema:name "A mapping file"@en ;
+    skos:prefLabel "A mapping file"@en ;
+    p:P127 wds:SDQ000003-1e4fe24a-3cbd-4446-a8e7-c0fa166c0755 ;
+    p:P170 wds:SDQ000003-7074250f-ff60-451c-ae8b-07a5d0053d47 ;
+    p:P31 wds:SDQ000003-4d25bbac-7cfb-413a-95d6-6495332a81c8 ;
+    dmp:SDP3003 dms:SDQ000003-7118c1b2-9841-42d6-850d-82d8e18a3c0c ;
+    dmp:SDP3004 dms:SDQ000003-da394eba-9969-4815-85db-fa849a771936 .
+
+dm:SDQ000004 a wikibase:Item ;
+    rdfs:label "Wikifier class"@en ;
+    schema:name "Wikifier class"@en ;
+    skos:prefLabel "Wikifier class"@en ;
+    p:P31 wds:SDQ000004-1d45299a-968c-429e-b4a3-8e55b694eb1d .
+
+dm:SDQ000005 a wikibase:Item ;
+    rdfs:label "Mapping file class"@en ;
+    schema:name "Mapping file class"@en ;
+    skos:prefLabel "Mapping file class"@en ;
+    p:P31 wds:SDQ000005-7a0d301c-fb41-4852-bb95-23908030b043 .
+
+dms:SDQ000001-05c02d91-7555-4553-b3f7-c9d4ad79fb71 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 4.0 ;
+    pqn:P1545 dmv:Quantityc4c0c0c0 ;
+    pqv:P1545 dmv:Quantityc4c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Rape (legacy definition)"^^xsd:string .
+
+dms:SDQ000001-0c4ca7b2-35b4-43a0-9046-76334766f353 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 6.0 ;
+    pqn:P1545 dmv:Quantityc6c0c0c0 ;
+    pqv:P1545 dmv:Quantityc6c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "52.0 98.0 0.0 367.0 11.0 138.0 55.0 107.0 34.0 29.0 11.0 85.0 467.0 27.0 57.0 394.0 82.0 35.0 256.0 103.0 104.0 59.0 39.0 75.0 212.0 156.0 91.0 26.0 40.0 1.0 57.0 44.0 2.0 6.0 22.0 21.0 15.0 31.0 24.0 63.0 140.0 3.0 35.0 37.0 29.0 25.0 34.0 37.0 18.0 97.0 21.0 35.0 47.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Aggravated assault"^^xsd:string .
+
+dms:SDQ000001-173844c3-e1cf-4032-a7bc-393d6ebd4ad5 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 2.0 ;
+    pqn:P1545 dmv:Quantityc2c0c0c0 ;
+    pqv:P1545 dmv:Quantityc2c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "1.0 1.0 0.0 1.0 0.0 0.0 4.0 1.0 1.0 0.0 0.0 4.0 5.0 1.0 0.0 10.0 0.0 2.0 2.0 9.0 1.0 0.0 2.0 3.0 0.0 1.0 2.0 0.0 2.0 0.0 2.0 3.0 0.0 0.0 0.0 0.0 0.0 2.0 1.0 1.0 2.0 0.0 1.0 0.0 1.0 3.0 1.0 1.0 1.0 2.0 1.0 2.0 2.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Murder and nonnegligent manslaughter"^^xsd:string .
+
+dms:SDQ000001-1cec4647-08c1-4540-ad0a-707ea0fb5ad0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 10.0 ;
+    pqn:P1545 dmv:Quantityc10c0c0c0 ;
+    pqv:P1545 dmv:Quantityc10c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "50.0 42.0 3.0 105.0 1.0 50.0 46.0 76.0 28.0 11.0 8.0 42.0 151.0 41.0 32.0 100.0 62.0 20.0 207.0 238.0 41.0 16.0 42.0 98.0 24.0 121.0 120.0 9.0 6.0 0.0 48.0 11.0 2.0 9.0 12.0 18.0 15.0 91.0 23.0 26.0 108.0 6.0 33.0 6.0 6.0 11.0 38.0 3.0 4.0 68.0 7.0 28.0 14.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Motor vehicle theft"^^xsd:string .
+
+dms:SDQ000001-38af3c21-d4c0-42f6-ba8e-dcd6bec6df1e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 7.0 ;
+    pqn:P1545 dmv:Quantityc7c0c0c0 ;
+    pqv:P1545 dmv:Quantityc7c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "429.0 613.0 37.0 867.0 319.0 592.0 677.0 480.0 205.0 139.0 86.0 616.0 2659.0 285.0 326.0 1296.0 829.0 224.0 2257.0 2149.0 360.0 373.0 372.0 886.0 541.0 1234.0 908.0 124.0 140.0 89.0 387.0 105.0 38.0 145.0 153.0 174.0 151.0 910.0 248.0 428.0 736.0 36.0 300.0 126.0 183.0 217.0 454.0 116.0 100.0 708.0 131.0 137.0 137.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Property crime"^^xsd:string .
+
+dms:SDQ000001-6b18d819-ac00-4479-b438-6eab4839ba35 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP2004 "FBI, 2016, ALABAMA, metropolitan, Nonmetropolitan, violent crime, murder and nonnegligent manslaughter, rape, robbery, aggravated assault, property crime, burglary, larceny-theft, motor vehicle theft, arson"^^xsd:string .
+
+dms:SDQ000001-6e2a9cbe-3333-4842-a3fe-2af7a3763604 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3001 dm:SDQ000002 .
+
+dms:SDQ000001-8ea2a489-6643-4961-a9bb-d1672582d787 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 9.0 ;
+    pqn:P1545 dmv:Quantityc9c0c0c0 ;
+    pqv:P1545 dmv:Quantityc9c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "233.0 342.0 14.0 501.0 181.0 295.0 408.0 255.0 106.0 55.0 44.0 395.0 919.0 190.0 189.0 807.0 565.0 108.0 1474.0 1299.0 198.0 165.0 206.0 537.0 303.0 726.0 526.0 65.0 87.0 53.0 192.0 47.0 27.0 96.0 73.0 102.0 84.0 574.0 161.0 229.0 403.0 20.0 182.0 49.0 105.0 115.0 227.0 62.0 69.0 430.0 68.0 65.0 59.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Larceny-theft"^^xsd:string .
+
+dms:SDQ000001-91bfcd2e-8aab-40bc-a78e-4abdf9fb169c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 5.0 ;
+    pqn:P1545 dmv:Quantityc5c0c0c0 ;
+    pqv:P1545 dmv:Quantityc5c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "8.0 23.0 0.0 9.0 5.0 3.0 7.0 7.0 2.0 2.0 1.0 7.0 173.0 0.0 6.0 18.0 9.0 9.0 39.0 26.0 8.0 2.0 5.0 8.0 4.0 22.0 10.0 2.0 6.0 0.0 4.0 2.0 0.0 0.0 0.0 1.0 1.0 1.0 1.0 4.0 2.0 0.0 4.0 5.0 4.0 0.0 1.0 3.0 2.0 12.0 0.0 1.0 1.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Robbery"^^xsd:string .
+
+dms:SDQ000001-939a9fb8-5d6f-4c67-9fbb-fe612820a0fb a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 3.0 ;
+    pqn:P1545 dmv:Quantityc3c0c0c0 ;
+    pqv:P1545 dmv:Quantityc3c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "12.0 5.0 0.0 17.0 7.0 10.0 22.0 20.0 9.0 2.0 1.0 18.0 48.0 2.0 7.0 21.0 29.0 5.0 44.0 13.0 4.0 10.0 20.0 25.0 20.0 6.0 18.0 4.0 3.0 0.0 9.0 5.0 0.0 1.0 6.0 1.0 3.0 24.0 12.0 8.0 18.0 0.0 5.0 0.0 1.0 3.0 9.0 0.0 0.0 9.0 3.0 4.0 2.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Rape (revised definition)"^^xsd:string .
+
+dms:SDQ000001-a5a99692-31a3-4209-ac5d-56a3c60f6ed1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 8.0 ;
+    pqn:P1545 dmv:Quantityc8c0c0c0 ;
+    pqv:P1545 dmv:Quantityc8c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "146.0 229.0 20.0 261.0 137.0 247.0 223.0 149.0 71.0 73.0 34.0 179.0 1589.0 54.0 105.0 389.0 202.0 96.0 576.0 612.0 121.0 192.0 124.0 251.0 214.0 387.0 262.0 50.0 47.0 36.0 147.0 47.0 9.0 40.0 68.0 54.0 52.0 245.0 64.0 173.0 225.0 10.0 85.0 71.0 72.0 91.0 189.0 51.0 27.0 210.0 56.0 44.0 64.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Burglary"^^xsd:string .
+
+dms:SDQ000001-a804b4a1-7d21-4a2d-95da-947c15478d0d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 0.0 ;
+    pqn:P1545 dmv:Quantityc0c0c0c0 ;
+    pqv:P1545 dmv:Quantityc0c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "Autauga Baldwin Bibb Blount Calhoun Chilton Elmore Etowah Geneva Hale Henry Houston Jefferson Lauderdale Lawrence Lee Limestone Lowndes Madison Mobile Montgomery Morgan Russell Shelby St. Clair Tuscaloosa Walker Barbour Butler Chambers Cherokee Clarke Clay Cleburne Coffee Coosa Covington Cullman Dale Dallas DeKalb Escambia Franklin Greene Marengo Marion Marshall Monroe Pike Talladega Tallapoosa Washington Wilcox"^^xsd:string ;
+    dmpq:SDP2007 wd:string ;
+    dmpq:SDP2008 schema:Text ;
+    dmps:SDP2005 "County"^^xsd:string .
+
+dms:SDQ000001-b69bb9d2-7f31-4d6f-8596-63e36e2de9c6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 11.0 ;
+    pqn:P1545 dmv:Quantityc11c0c0c0 ;
+    pqv:P1545 dmv:Quantityc11c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "nan nan nan nan nan nan nan nan nan nan nan nan 31.0 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Arson"^^xsd:string .
+
+dms:SDQ000001-cf352739-10ab-414c-ab3e-beae85cb14db a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3002 dm:SDQ000003 .
+
+dms:SDQ000001-f8aa8a44-b8f8-4852-a02f-2c70823fd010 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 1.0 ;
+    pqn:P1545 dmv:Quantityc1c0c0c0 ;
+    pqv:P1545 dmv:Quantityc1c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "73.0 127.0 0.0 394.0 23.0 151.0 88.0 135.0 46.0 33.0 13.0 114.0 693.0 30.0 70.0 443.0 120.0 51.0 341.0 151.0 117.0 71.0 66.0 111.0 236.0 185.0 121.0 32.0 51.0 1.0 72.0 54.0 2.0 7.0 28.0 23.0 19.0 58.0 38.0 76.0 162.0 3.0 45.0 42.0 35.0 31.0 45.0 41.0 21.0 120.0 25.0 42.0 52.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Violent crime"^^xsd:string .
+
+dms:SDQ000002-6094d5b0-c050-414c-9e93-e6afcf7865ee a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3004 "07d6436c69fc9a516e1651ddbe40e2ed"^^xsd:string .
+
+dms:SDQ000002-695fdca7-bac4-436b-b027-b6b02e5b1ab8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3003 """column,row,value,qnode
+,,Autauga,Q156168
+,,Baldwin,Q156163
+,,Bibb,Q461204
+,,Blount,Q111250
+,,Calhoun,Q108856
+,,Chilton,Q111266
+,,Elmore,Q494630
+,,Etowah,Q493951
+,,Geneva,Q494620
+,,Hale,Q501147
+,,Henry,Q501000
+,,Houston,Q496292
+,,Jefferson,Q112271
+,,Lauderdale,Q261672
+,,Lawrence,Q502737
+,,Lee,Q501055
+,,Limestone,Q501108
+,,Lowndes,Q503461
+,,Madison,Q493715
+,,Mobile,Q495738
+,,Montgomery,Q502784
+,,Morgan,Q137828
+,,Russell,Q503329
+,,Shelby,Q501084
+,,St. Clair,Q503451
+,,Tuscaloosa,Q503877
+,,Walker,Q506291
+,,Barbour,Q109437
+,,Butler,Q108871
+,,Chambers,Q111280
+,,Cherokee,Q108832
+,,Clarke,Q111273
+,,Clay,Q156570
+,,Cleburne,Q327080
+,,Coffee,Q485660
+,,Coosa,Q487738
+,,Covington,Q487725
+,,Cullman,Q188204
+,,Dale,Q488840
+,,Dallas,Q488847
+,,DeKalb,Q494626
+,,Escambia,Q487744
+,,Franklin,Q488892
+,,Greene,Q493709
+,,Marengo,Q501074
+,,Marion,Q502739
+,,Marshall,Q502925
+,,Monroe,Q501060
+,,Pike,Q492888
+,,Talladega,Q302918
+,,Tallapoosa,Q512787
+,,Washington,Q501157
+,,Wilcox,Q503081
+,,Violent crime,P100023
+,,Murder and nonnegligent manslaughter,P100024
+,,Rape (revised definition),P100025
+,,Robbery,P100026
+,,Aggravated assault,P100027
+,,Property crime,P100028
+,,Burglary,P100029
+,,Larceny-theft,P100030
+,,Motor vehicle theft,P100031
+,,Arson,P100032
+"""^^xsd:string .
+
+dms:SDQ000003-7118c1b2-9841-42d6-850d-82d8e18a3c0c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3003 """statementMapping:
+  region:
+    - left: B
+      right: N
+      top: 6
+      bottom: 60
+  template:
+    item: item(B/$row)
+    property: item($col/6)
+    value: value($col/$row)
+    qualifier:
+      - property: P585
+        value: 2016
+        calendar: Q1985727
+        precision: year
+        time_zone: 0"""^^xsd:string .
+
+dms:SDQ000003-da394eba-9969-4815-85db-fa849a771936 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3004 "460f9e3022bc3627326d32393e4b31a2"^^xsd:string .
+
+dm:SDQ000006 a wikibase:Item ;
+    rdfs:label "Datamart satellite"@en ;
+    schema:name "Datamart satellite"@en ;
+    skos:prefLabel "Datamart satellite"@en ;
+    p:P31 wds:SDQ000006-df0813de-81b8-43a6-afad-6b98339928d6 .
+
+dmv:Quantityc0c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 0.0 ;
+    wikibase:quantityNormalized dmv:Quantityc0c0c0c0 .
+
+dmv:Quantityc10c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 10.0 ;
+    wikibase:quantityNormalized dmv:Quantityc10c0c0c0 .
+
+dmv:Quantityc11c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 11.0 ;
+    wikibase:quantityNormalized dmv:Quantityc11c0c0c0 .
+
+dmv:Quantityc1c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 1.0 ;
+    wikibase:quantityNormalized dmv:Quantityc1c0c0c0 .
+
+dmv:Quantityc2c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 2.0 ;
+    wikibase:quantityNormalized dmv:Quantityc2c0c0c0 .
+
+dmv:Quantityc3c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 3.0 ;
+    wikibase:quantityNormalized dmv:Quantityc3c0c0c0 .
+
+dmv:Quantityc4c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 4.0 ;
+    wikibase:quantityNormalized dmv:Quantityc4c0c0c0 .
+
+dmv:Quantityc5c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 5.0 ;
+    wikibase:quantityNormalized dmv:Quantityc5c0c0c0 .
+
+dmv:Quantityc6c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 6.0 ;
+    wikibase:quantityNormalized dmv:Quantityc6c0c0c0 .
+
+dmv:Quantityc7c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 7.0 ;
+    wikibase:quantityNormalized dmv:Quantityc7c0c0c0 .
+
+dmv:Quantityc8c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 8.0 ;
+    wikibase:quantityNormalized dmv:Quantityc8c0c0c0 .
+
+dmv:Quantityc9c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 9.0 ;
+    wikibase:quantityNormalized dmv:Quantityc9c0c0c0 .
+

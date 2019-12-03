@@ -1,0 +1,380 @@
+@prefix : <http://isi.edu/> .
+@prefix dm: <https://w3id.org/satellite/dm/entity/> .
+@prefix dmno: <https://w3id.org/satellite/dm/prop/novalue/> .
+@prefix dmp: <https://w3id.org/satellite/dm/prop/> .
+@prefix dmpq: <https://w3id.org/satellite/dm/prop/qualifier/> .
+@prefix dmpqn: <https://w3id.org/satellite/dm/prop/qualifier/value-normalized/> .
+@prefix dmpqv: <https://w3id.org/satellite/dm/prop/qualifier/value/> .
+@prefix dmpr: <https://w3id.org/satellite/dm/prop/reference/> .
+@prefix dmprn: <https://w3id.org/satellite/dm/prop/reference/value-normalized/> .
+@prefix dmprv: <https://w3id.org/satellite/dm/prop/reference/value/> .
+@prefix dmps: <https://w3id.org/satellite/dm/prop/statement/> .
+@prefix dmpsn: <https://w3id.org/satellite/dm/prop/statement/value-normalized/> .
+@prefix dmpsv: <https://w3id.org/satellite/dm/prop/statement/value/> .
+@prefix dmref: <https://w3id.org/satellite/dm/reference/> .
+@prefix dms: <https://w3id.org/satellite/dm/entity/statement/> .
+@prefix dmt: <https://w3id.org/satellite/dm/prop/direct/> .
+@prefix dmtn: <https://w3id.org/satellite/dm/prop/direct-normalized/> .
+@prefix dmv: <https://w3id.org/satellite/dm/value/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dm:SDP2001 a wikibase:Property ;
+    rdfs:label "datamart identifier"@en ;
+    schema:description "identifier of a dataset in the Datamart system."@en ;
+    schema:name "datamart identifier"@en ;
+    wikibase:claim dmp:SDP2001 ;
+    wikibase:directClaim dmt:SDP2001 ;
+    wikibase:directClaimNormalized dmtn:SDP2001 ;
+    wikibase:novalue dmno:SDP2001 ;
+    wikibase:propertyType wikibase:Monolingualtext ;
+    wikibase:qualifier dmpq:SDP2001 ;
+    wikibase:qualifierValue dmpqv:SDP2001 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2001 ;
+    wikibase:reference dmpr:SDP2001 ;
+    wikibase:referenceValue dmprv:SDP2001 ;
+    wikibase:referenceValueNormalized dmprn:SDP2001 ;
+    wikibase:statementProperty dmps:SDP2001 ;
+    wikibase:statementValue dmpsv:SDP2001 ;
+    wikibase:statementValueNormalized dmpsn:SDP2001 ;
+    skos:prefLabel "datamart identifier"@en ;
+    p:P1629 wds:SDP2001-92de4847-a6d7-4bfc-b7dd-b2b09a1ced37 ;
+    p:P31 wds:SDP2001-d3e7c42b-4cee-48f2-8e4b-cf90b8f367a8 .
+
+dm:SDP2002 a wikibase:Property ;
+    rdfs:label "temporal coverage"@en ;
+    schema:description "the period that the content applies to."@en ;
+    schema:name "temporal coverage"@en ;
+    wikibase:claim dmp:SDP2002 ;
+    wikibase:directClaim dmt:SDP2002 ;
+    wikibase:directClaimNormalized dmtn:SDP2002 ;
+    wikibase:novalue dmno:SDP2002 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP2002 ;
+    wikibase:qualifierValue dmpqv:SDP2002 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2002 ;
+    wikibase:reference dmpr:SDP2002 ;
+    wikibase:referenceValue dmprv:SDP2002 ;
+    wikibase:referenceValueNormalized dmprn:SDP2002 ;
+    wikibase:statementProperty dmps:SDP2002 ;
+    wikibase:statementValue dmpsv:SDP2002 ;
+    wikibase:statementValueNormalized dmpsn:SDP2002 ;
+    skos:prefLabel "temporal coverage"@en ;
+    p:P1628 wds:SDP2002-5811552a-af47-4aa3-9702-47fd106e978b ;
+    p:P31 wds:SDP2002-b4c3c27b-b76e-4f65-a074-816dbcde9e75 .
+
+dm:SDP2003 a wikibase:Property ;
+    rdfs:label "spatial coverage"@en ;
+    schema:description "the place(s) which are the focus of the content."@en ;
+    schema:name "spatial coverage"@en ;
+    wikibase:claim dmp:SDP2003 ;
+    wikibase:directClaim dmt:SDP2003 ;
+    wikibase:directClaimNormalized dmtn:SDP2003 ;
+    wikibase:novalue dmno:SDP2003 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP2003 ;
+    wikibase:qualifierValue dmpqv:SDP2003 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2003 ;
+    wikibase:reference dmpr:SDP2003 ;
+    wikibase:referenceValue dmprv:SDP2003 ;
+    wikibase:referenceValueNormalized dmprn:SDP2003 ;
+    wikibase:statementProperty dmps:SDP2003 ;
+    wikibase:statementValue dmpsv:SDP2003 ;
+    wikibase:statementValueNormalized dmpsn:SDP2003 ;
+    skos:prefLabel "spatial coverage"@en ;
+    p:P1628 wds:SDP2003-03b00cd8-a9ed-411d-8426-96ed845ce604 ;
+    p:P31 wds:SDP2003-d4056092-9ef6-4038-bc17-4bf395704175 .
+
+dm:SDP2004 a wikibase:Property ;
+    rdfs:label "keywords"@en ;
+    schema:description "keywords associated with an item to facilitate finding the item."@en ;
+    schema:name "keywords"@en ;
+    wikibase:claim dmp:SDP2004 ;
+    wikibase:directClaim dmt:SDP2004 ;
+    wikibase:directClaimNormalized dmtn:SDP2004 ;
+    wikibase:novalue dmno:SDP2004 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP2004 ;
+    wikibase:qualifierValue dmpqv:SDP2004 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2004 ;
+    wikibase:reference dmpr:SDP2004 ;
+    wikibase:referenceValue dmprv:SDP2004 ;
+    wikibase:referenceValueNormalized dmprn:SDP2004 ;
+    wikibase:statementProperty dmps:SDP2004 ;
+    wikibase:statementValue dmpsv:SDP2004 ;
+    wikibase:statementValueNormalized dmpsn:SDP2004 ;
+    skos:prefLabel "keywords"@en ;
+    p:P31 wds:SDP2004-97549945-7ab5-436e-bf1f-466ff4c73395 .
+
+dm:SDP2005 a wikibase:Property ;
+    rdfs:label "variable measured"@en ;
+    schema:description "the variables measured in a dataset."@en ;
+    schema:name "variable measured"@en ;
+    wikibase:claim dmp:SDP2005 ;
+    wikibase:directClaim dmt:SDP2005 ;
+    wikibase:directClaimNormalized dmtn:SDP2005 ;
+    wikibase:novalue dmno:SDP2005 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP2005 ;
+    wikibase:qualifierValue dmpqv:SDP2005 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2005 ;
+    wikibase:reference dmpr:SDP2005 ;
+    wikibase:referenceValue dmprv:SDP2005 ;
+    wikibase:referenceValueNormalized dmprn:SDP2005 ;
+    wikibase:statementProperty dmps:SDP2005 ;
+    wikibase:statementValue dmpsv:SDP2005 ;
+    wikibase:statementValueNormalized dmpsn:SDP2005 ;
+    skos:prefLabel "variable measured"@en ;
+    p:P1628 wds:SDP2005-ecf7a279-3555-4351-9a9b-76537ac68184 ;
+    p:P31 wds:SDP2005-3b79e583-10ed-4ecd-8705-607dbe202927 .
+
+dm:SDP2006 a wikibase:Property ;
+    rdfs:label "values"@en ;
+    schema:description "the values of a variable represented as a text document."@en ;
+    schema:name "values"@en ;
+    wikibase:claim dmp:SDP2006 ;
+    wikibase:directClaim dmt:SDP2006 ;
+    wikibase:directClaimNormalized dmtn:SDP2006 ;
+    wikibase:novalue dmno:SDP2006 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP2006 ;
+    wikibase:qualifierValue dmpqv:SDP2006 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2006 ;
+    wikibase:reference dmpr:SDP2006 ;
+    wikibase:referenceValue dmprv:SDP2006 ;
+    wikibase:referenceValueNormalized dmprn:SDP2006 ;
+    wikibase:statementProperty dmps:SDP2006 ;
+    wikibase:statementValue dmpsv:SDP2006 ;
+    wikibase:statementValueNormalized dmpsn:SDP2006 ;
+    skos:prefLabel "values"@en ;
+    p:P31 wds:SDP2006-3a5be766-eb3e-40f1-9289-410973acc908 .
+
+dm:SDP2007 a wikibase:Property ;
+    rdfs:label "data type"@en ;
+    schema:description "the data type used to represent the values of a variable, integer (Q729138), Boolean (Q520777), Real (Q4385701), String (Q184754), Categorical (Q2285707)."@en ;
+    schema:name "data type"@en ;
+    wikibase:claim dmp:SDP2007 ;
+    wikibase:directClaim dmt:SDP2007 ;
+    wikibase:directClaimNormalized dmtn:SDP2007 ;
+    wikibase:novalue dmno:SDP2007 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier dmpq:SDP2007 ;
+    wikibase:qualifierValue dmpqv:SDP2007 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2007 ;
+    wikibase:reference dmpr:SDP2007 ;
+    wikibase:referenceValue dmprv:SDP2007 ;
+    wikibase:referenceValueNormalized dmprn:SDP2007 ;
+    wikibase:statementProperty dmps:SDP2007 ;
+    wikibase:statementValue dmpsv:SDP2007 ;
+    wikibase:statementValueNormalized dmpsn:SDP2007 ;
+    skos:prefLabel "data type"@en ;
+    p:P31 wds:SDP2007-49d4f64c-d666-446d-a002-0ab262c92725 .
+
+dm:SDP2008 a wikibase:Property ;
+    rdfs:label "semantic type"@en ;
+    schema:description "a URL that identifies the semantic type of a variable in a dataset."@en ;
+    schema:name "semantic type"@en ;
+    wikibase:claim dmp:SDP2008 ;
+    wikibase:directClaim dmt:SDP2008 ;
+    wikibase:directClaimNormalized dmtn:SDP2008 ;
+    wikibase:novalue dmno:SDP2008 ;
+    wikibase:propertyType wikibase:Url ;
+    wikibase:qualifier dmpq:SDP2008 ;
+    wikibase:qualifierValue dmpqv:SDP2008 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP2008 ;
+    wikibase:reference dmpr:SDP2008 ;
+    wikibase:referenceValue dmprv:SDP2008 ;
+    wikibase:referenceValueNormalized dmprn:SDP2008 ;
+    wikibase:statementProperty dmps:SDP2008 ;
+    wikibase:statementValue dmpsv:SDP2008 ;
+    wikibase:statementValueNormalized dmpsn:SDP2008 ;
+    skos:prefLabel "semantic type"@en ;
+    p:P31 wds:SDP2008-aed7daf6-7b57-4eaf-b9e2-45b0c1ae42a1 .
+
+dm:SDP3001 a wikibase:Property ;
+    rdfs:label "hasWikifier"@en ;
+    schema:description "A dataset which has a wikifier file."@en ;
+    schema:name "hasWikifier"@en ;
+    wikibase:claim dmp:SDP3001 ;
+    wikibase:directClaim dmt:SDP3001 ;
+    wikibase:directClaimNormalized dmtn:SDP3001 ;
+    wikibase:novalue dmno:SDP3001 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier dmpq:SDP3001 ;
+    wikibase:qualifierValue dmpqv:SDP3001 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP3001 ;
+    wikibase:reference dmpr:SDP3001 ;
+    wikibase:referenceValue dmprv:SDP3001 ;
+    wikibase:referenceValueNormalized dmprn:SDP3001 ;
+    wikibase:statementProperty dmps:SDP3001 ;
+    wikibase:statementValue dmpsv:SDP3001 ;
+    wikibase:statementValueNormalized dmpsn:SDP3001 ;
+    skos:prefLabel "hasWikifier"@en ;
+    p:P31 wds:SDP3001-2bddd474-2417-46f3-a8bf-fb17e73648e3 .
+
+dm:SDP3002 a wikibase:Property ;
+    rdfs:label "hasT2WML"@en ;
+    schema:description "A dataset which has a mapping file from T2WML."@en ;
+    schema:name "hasT2WML"@en ;
+    wikibase:claim dmp:SDP3002 ;
+    wikibase:directClaim dmt:SDP3002 ;
+    wikibase:directClaimNormalized dmtn:SDP3002 ;
+    wikibase:novalue dmno:SDP3002 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier dmpq:SDP3002 ;
+    wikibase:qualifierValue dmpqv:SDP3002 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP3002 ;
+    wikibase:reference dmpr:SDP3002 ;
+    wikibase:referenceValue dmprv:SDP3002 ;
+    wikibase:referenceValueNormalized dmprn:SDP3002 ;
+    wikibase:statementProperty dmps:SDP3002 ;
+    wikibase:statementValue dmpsv:SDP3002 ;
+    wikibase:statementValueNormalized dmpsn:SDP3002 ;
+    skos:prefLabel "hasT2WML"@en ;
+    p:P31 wds:SDP3002-4f0f7693-5ec4-4f27-b34c-8f3f18ddf2f7 .
+
+dm:SDP3003 a wikibase:Property ;
+    rdfs:label "hasFileContent"@en ;
+    schema:description "A file which has content."@en ;
+    schema:name "hasFileContent"@en ;
+    wikibase:claim dmp:SDP3003 ;
+    wikibase:directClaim dmt:SDP3003 ;
+    wikibase:directClaimNormalized dmtn:SDP3003 ;
+    wikibase:novalue dmno:SDP3003 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP3003 ;
+    wikibase:qualifierValue dmpqv:SDP3003 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP3003 ;
+    wikibase:reference dmpr:SDP3003 ;
+    wikibase:referenceValue dmprv:SDP3003 ;
+    wikibase:referenceValueNormalized dmprn:SDP3003 ;
+    wikibase:statementProperty dmps:SDP3003 ;
+    wikibase:statementValue dmpsv:SDP3003 ;
+    wikibase:statementValueNormalized dmpsn:SDP3003 ;
+    skos:prefLabel "hasFileContent"@en ;
+    p:P31 wds:SDP3003-1d0809b8-9f4c-42d3-aae5-2221d65afa24 .
+
+dm:SDP3004 a wikibase:Property ;
+    rdfs:label "hashValue"@en ;
+    schema:description "A file which has a hash value."@en ;
+    schema:name "hashValue"@en ;
+    wikibase:claim dmp:SDP3004 ;
+    wikibase:directClaim dmt:SDP3004 ;
+    wikibase:directClaimNormalized dmtn:SDP3004 ;
+    wikibase:novalue dmno:SDP3004 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier dmpq:SDP3004 ;
+    wikibase:qualifierValue dmpqv:SDP3004 ;
+    wikibase:qualifierValueNormalized dmpqn:SDP3004 ;
+    wikibase:reference dmpr:SDP3004 ;
+    wikibase:referenceValue dmprv:SDP3004 ;
+    wikibase:referenceValueNormalized dmprn:SDP3004 ;
+    wikibase:statementProperty dmps:SDP3004 ;
+    wikibase:statementValue dmpsv:SDP3004 ;
+    wikibase:statementValueNormalized dmpsn:SDP3004 ;
+    skos:prefLabel "hashValue"@en ;
+    p:P31 wds:SDP3004-89ef5ada-ee93-4d0a-af1a-71f682fe3514 .
+
+wds:SDP2001-92de4847-a6d7-4bfc-b7dd-b2b09a1ced37 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1629 wd:Q1172284 ;
+    ps:P170 :datamart .
+
+wds:SDP2001-d3e7c42b-4cee-48f2-8e4b-cf90b8f367a8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q19847637 .
+
+wds:SDP2002-5811552a-af47-4aa3-9702-47fd106e978b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1628 schema:temporalCoverage ;
+    ps:P170 :datamart .
+
+wds:SDP2002-b4c3c27b-b76e-4f65-a074-816dbcde9e75 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP2003-03b00cd8-a9ed-411d-8426-96ed845ce604 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1628 schema:spatialCoverage ;
+    ps:P170 :datamart .
+
+wds:SDP2003-d4056092-9ef6-4038-bc17-4bf395704175 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP2004-97549945-7ab5-436e-bf1f-466ff4c73395 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP2005-3b79e583-10ed-4ecd-8705-607dbe202927 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP2005-ecf7a279-3555-4351-9a9b-76537ac68184 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P1628 schema:variableMeasured ;
+    ps:P170 :datamart .
+
+wds:SDP2006-3a5be766-eb3e-40f1-9289-410973acc908 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP2007-49d4f64c-d666-446d-a002-0ab262c92725 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP2008-aed7daf6-7b57-4eaf-b9e2-45b0c1ae42a1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP3001-2bddd474-2417-46f3-a8bf-fb17e73648e3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP3002-4f0f7693-5ec4-4f27-b34c-8f3f18ddf2f7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP3003-1d0809b8-9f4c-42d3-aae5-2221d65afa24 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+
+wds:SDP3004-89ef5ada-ee93-4d0a-af1a-71f682fe3514 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 wd:Q18616576 .
+

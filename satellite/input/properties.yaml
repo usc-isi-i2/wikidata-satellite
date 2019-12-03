@@ -1,0 +1,143 @@
+prefix:
+  - dm: https://w3id.org/satellite/dm
+schemaVersion: 1.0.0
+dm:SDP2001:
+  type: text
+  label:
+    en:
+    - datamart identifier
+  description:
+    en:
+    - identifier of a dataset in the Datamart system.
+  statements:
+    P31:                  # instance of
+    - value: Q19847637    # wikidata property for an identifier
+    P1629:                # subject item of this property
+    - value: Q1172284     # collection of data
+dm:SDP2002:
+  type: string
+  label:
+    en:
+    - temporal coverage
+  description:
+    en:
+    - the period that the content applies to.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+    P1628:                # equivalent property
+    - value: http://schema.org/temporalCoverage
+dm:SDP2003:
+  type: string
+  label:
+    en:
+    - spatial coverage
+  description:
+    en:
+    - the place(s) which are the focus of the content.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+    P1628:                # equivalent property
+    - value: http://schema.org/spatialCoverage
+dm:SDP2004:
+  type: string
+  label:
+    en:
+    - keywords
+  description:
+    en:
+    - keywords associated with an item to facilitate finding the item.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP2005:
+  type: string
+  label:
+    en:
+    - variable measured
+  description:
+    en:
+    - the variables measured in a dataset.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+    P1628:                # equivalent property
+    - value: http://schema.org/variableMeasured
+dm:SDP2006:
+  type: string
+  label:
+    en:
+    - values
+  description:
+    en:
+    - the values of a variable represented as a text document.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP2007:
+  type: item
+  label:
+    en:
+    - data type
+  description:
+    en:
+    - the data type used to represent the values of a variable, integer (Q729138), Boolean (Q520777), Real (Q4385701), String (Q184754), Categorical (Q2285707).
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP2008:
+  type: url
+  label:
+    en:
+    - semantic type
+  description:
+    en:
+    - a URL that identifies the semantic type of a variable in a dataset.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP3001:
+  type: item
+  label:
+    en:
+    - hasWikifier
+  description:
+    en:
+    - A dataset which has a wikifier file.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP3002:
+  type: item
+  label:
+    en:
+    - hasT2WML
+  description:
+    en:
+    - A dataset which has a mapping file from T2WML.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP3003:
+  type: string
+  label:
+    en:
+    - hasFileContent
+  description:
+    en:
+    - A file which has content.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
+dm:SDP3004:
+  type: string
+  label:
+    en:
+    - hashValue
+  description:
+    en:
+    - A file which has a hash value.
+  statements:
+    P31:                  # instance of
+    - value: Q18616576    # wikidata property
