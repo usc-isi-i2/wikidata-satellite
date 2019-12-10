@@ -141,3 +141,36 @@ dm:SDP3004:
   statements:
     P31:                  # instance of
     - value: Q18616576    # wikidata property
+dm:SDQ1001:
+  type: string
+  label:
+    en:
+    - Wikifier Class
+  description:
+    en:
+    - Wikifier Class.
+  statements:
+    P31:                  # instance of
+    - value: Q28326484    # wikidata class
+dm:SDQ1002:
+  type: string
+  label:
+    en:
+    - MappingFile Class
+  description:
+    en:
+    - MappingFile Class.
+  statements:
+    P31:                  # instance of
+    - value: Q28326484    # wikidata class
+dm:SDQ1003:
+  type: string
+  label:
+    en:
+    - Datamart Satellite
+  description:
+    en:
+    - Datamart Satellite.
+  statements:
+    P31:                  # instance of
+    - value: Q28326484    # wikidata class

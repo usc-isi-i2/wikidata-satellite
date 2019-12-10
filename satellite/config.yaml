@@ -1,0 +1,19 @@
+inputs:
+  dataset:
+    path: input/alabama_crime.xls
+  mappingFile:
+    path: input/t2wml.yaml
+  wikifier:
+    path: input/wikifier.csv
+  metadata:
+    path: input/dataset_metadata.json
+schema: input/properties_schema.yaml
+satelliteEndpoint: http://kg2018a.isi.edu:8888/bigdata/namespace/wdq/sparql
+reservationEndpoint: http://localhost:5000
+satelliteNamespace:
+  namespace: dm
+  uri: https://w3id.org/satellite/dm
+qnodePrefix: SDQ
+numOf0: 7
+output: output/
+storeColumnValue: True

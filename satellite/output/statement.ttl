@@ -42,144 +42,97 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dm:SDQ000001 a wikibase:Item ;
+dm:SDQ0000001 a wikibase:Item ;
     rdfs:label "FBI 2016 crimes in the Alabama"@en ;
+    schema:description "Offenses Known to Law Enforcement by Metropolitan and Nonmetropolitan Counties, 2016"@en ;
     schema:name "FBI 2016 crimes in the Alabama"@en ;
     skos:prefLabel "FBI 2016 crimes in the Alabama"@en ;
-    p:P127 wds:SDQ000001-d40f89d3-5bcd-485f-85f6-1f716c0fb655 ;
-    p:P1476 wds:SDQ000001-ef44f651-d264-42aa-b91f-a16df6a420ff ;
-    p:P31 wds:SDQ000001-ae5f2874-b92a-4785-a0d9-a4045587d224 ;
-    p:P921 wds:SDQ000001-c1144681-eb06-4756-b785-58e4e27649a2 ;
-    dmp:SDP2004 dms:SDQ000001-6b18d819-ac00-4479-b438-6eab4839ba35 ;
-    dmp:SDP2005 dms:SDQ000001-05c02d91-7555-4553-b3f7-c9d4ad79fb71,
-        dms:SDQ000001-0c4ca7b2-35b4-43a0-9046-76334766f353,
-        dms:SDQ000001-173844c3-e1cf-4032-a7bc-393d6ebd4ad5,
-        dms:SDQ000001-1cec4647-08c1-4540-ad0a-707ea0fb5ad0,
-        dms:SDQ000001-38af3c21-d4c0-42f6-ba8e-dcd6bec6df1e,
-        dms:SDQ000001-8ea2a489-6643-4961-a9bb-d1672582d787,
-        dms:SDQ000001-91bfcd2e-8aab-40bc-a78e-4abdf9fb169c,
-        dms:SDQ000001-939a9fb8-5d6f-4c67-9fbb-fe612820a0fb,
-        dms:SDQ000001-a5a99692-31a3-4209-ac5d-56a3c60f6ed1,
-        dms:SDQ000001-a804b4a1-7d21-4a2d-95da-947c15478d0d,
-        dms:SDQ000001-b69bb9d2-7f31-4d6f-8596-63e36e2de9c6,
-        dms:SDQ000001-f8aa8a44-b8f8-4852-a02f-2c70823fd010 ;
-    dmp:SDP3001 dms:SDQ000001-6e2a9cbe-3333-4842-a3fe-2af7a3763604 ;
-    dmp:SDP3002 dms:SDQ000001-cf352739-10ab-414c-ab3e-beae85cb14db .
+    p:P127 wds:SDQ0000001-01480768-1eee-444d-93c3-6897c1e526f4 ;
+    p:P1476 wds:SDQ0000001-0fc2a614-de72-4bbf-974e-7c0d7eef3643 ;
+    p:P31 wds:SDQ0000001-ec2bf09d-7fd5-4957-b6e4-44d534458615 ;
+    p:P921 wds:SDQ0000001-8d6e14e0-cc42-4b0d-b9d8-15d22a62efee ;
+    dmp:SDP2004 dms:SDQ0000001-86ab57a3-ff6f-435c-acea-1cf9cd92d652 ;
+    dmp:SDP2005 dms:SDQ0000001-09adb772-5aa3-40c4-bc53-856f47e973db,
+        dms:SDQ0000001-0a81b7d2-4414-4d7d-8a7a-60ee6fe2db1d,
+        dms:SDQ0000001-0c51c791-98f5-4c65-aec4-1b5d86d17e85,
+        dms:SDQ0000001-1db0f4d0-4650-490e-adf4-4d536a14d2cf,
+        dms:SDQ0000001-3b82f1f7-e6a2-4899-ae44-049db3094d42,
+        dms:SDQ0000001-4a3e9017-bd85-4c15-bcfa-a0330018e169,
+        dms:SDQ0000001-7a5e2985-a612-4123-a54a-251515cbe0e7,
+        dms:SDQ0000001-97315757-2d47-458f-9a03-fd0536066ab6,
+        dms:SDQ0000001-a2b5d1dc-4631-4cd2-85be-530d063c3231,
+        dms:SDQ0000001-cf0aa966-1238-49e4-a63c-ed51d16a4bbe,
+        dms:SDQ0000001-d704e87e-fb31-4098-90a8-79b842e97c06,
+        dms:SDQ0000001-e0879d3f-0f29-49fc-83c6-ccc0f2807455 ;
+    dmp:SDP3001 dms:SDQ0000001-e946d39c-854a-4bfe-8347-c5e9ef06159d ;
+    dmp:SDP3002 dms:SDQ0000001-c7c06353-e195-4114-8798-97c240d607fd ;
+    dmp:SDP3004 dms:SDQ0000001-427ac2ce-6b03-49ca-ac6c-831601168adc .
 
-wds:SDQ000001-ae5f2874-b92a-4785-a0d9-a4045587d224 a wikibase:Statement ;
+wds:SDQ0000001-01480768-1eee-444d-93c3-6897c1e526f4 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    ps:P31 wd:Q1172284 .
-
-wds:SDQ000001-c1144681-eb06-4756-b785-58e4e27649a2 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    ps:P921 "Offenses Known to Law Enforcement by Metropolitan and Nonmetropolitan Counties, 2016"^^xsd:string .
-
-wds:SDQ000001-d40f89d3-5bcd-485f-85f6-1f716c0fb655 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P127 dm:SDQ000006 ;
+    ps:P127 dm:SDQ1003 ;
     ps:P170 :datamart .
 
-wds:SDQ000001-ef44f651-d264-42aa-b91f-a16df6a420ff a wikibase:Statement ;
+wds:SDQ0000001-0fc2a614-de72-4bbf-974e-7c0d7eef3643 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P1476 "FBI 2016 crimes in the Alabama"^^xsd:string ;
     ps:P170 :datamart .
 
-wds:SDQ000002-18302e65-382b-488e-bed7-66dd9dce2adf a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P127 dm:SDQ000006 ;
-    ps:P170 :datamart .
-
-wds:SDQ000002-ee3b37de-9017-4a46-af9d-2120d7b5c011 a wikibase:Statement ;
+wds:SDQ0000001-8d6e14e0-cc42-4b0d-b9d8-15d22a62efee a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
-    ps:P31 dm:SDQ000004 .
+    ps:P921 "Offenses Known to Law Enforcement by Metropolitan and Nonmetropolitan Counties, 2016"^^xsd:string .
 
-wds:SDQ000003-1e4fe24a-3cbd-4446-a8e7-c0fa166c0755 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P127 dm:SDQ000006 ;
-    ps:P170 :datamart .
-
-wds:SDQ000003-4d25bbac-7cfb-413a-95d6-6495332a81c8 a wikibase:Statement ;
+wds:SDQ0000001-ec2bf09d-7fd5-4957-b6e4-44d534458615 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
-    ps:P31 dm:SDQ000005 .
+    ps:P31 wd:Q1172284 .
 
-wds:SDQ000003-7074250f-ff60-451c-ae8b-07a5d0053d47 a wikibase:Statement ;
+wds:SDQ0000002-239b3f66-27cc-4efa-8829-dc55aa68b5a4 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P127 dm:SDQ1003 ;
+    ps:P170 :datamart .
+
+wds:SDQ0000002-4d936054-8943-45dc-b144-47842ff547ec a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    ps:P31 dm:SDQ1002 .
+
+wds:SDQ0000002-e7b8f5d6-d96b-4ace-a7b1-d44d956e48b9 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart,
         "T2WML"^^xsd:string .
 
-wds:SDQ000004-1d45299a-968c-429e-b4a3-8e55b694eb1d a wikibase:Statement ;
+wds:SDQ0000003-6a480c49-a8cc-41d8-8f93-7baf6d19cfc3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P127 dm:SDQ1003 ;
+    ps:P170 :datamart .
+
+wds:SDQ0000003-ec3797a5-3fc3-451e-9b48-c426d1171455 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
-    ps:P31 wd:28326484 .
+    ps:P31 dm:SDQ1001 .
 
-wds:SDQ000005-7a0d301c-fb41-4852-bb95-23908030b043 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    ps:P31 wd:28326484 .
+dm:SDQ0000002 a wikibase:Item ;
+    rdfs:label "A mapping file for alabama_crime"@en ;
+    schema:name "A mapping file for alabama_crime"@en ;
+    skos:prefLabel "A mapping file for alabama_crime"@en ;
+    p:P127 wds:SDQ0000002-239b3f66-27cc-4efa-8829-dc55aa68b5a4 ;
+    p:P170 wds:SDQ0000002-e7b8f5d6-d96b-4ace-a7b1-d44d956e48b9 ;
+    p:P31 wds:SDQ0000002-4d936054-8943-45dc-b144-47842ff547ec ;
+    dmp:SDP3003 dms:SDQ0000002-3d914dd8-0148-40bc-8525-94da9b9e445b ;
+    dmp:SDP3004 dms:SDQ0000002-70befeea-9be6-4071-815a-659e0929c340 .
 
-wds:SDQ000006-df0813de-81b8-43a6-afad-6b98339928d6 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    ps:P31 wd:28326484 .
+dm:SDQ0000003 a wikibase:Item ;
+    rdfs:label "A wikifier file for alabama_crime"@en ;
+    schema:name "A wikifier file for alabama_crime"@en ;
+    skos:prefLabel "A wikifier file for alabama_crime"@en ;
+    p:P127 wds:SDQ0000003-6a480c49-a8cc-41d8-8f93-7baf6d19cfc3 ;
+    p:P31 wds:SDQ0000003-ec3797a5-3fc3-451e-9b48-c426d1171455 ;
+    dmp:SDP3003 dms:SDQ0000003-517a1e30-986f-4fff-a329-d30b39f12c75 ;
+    dmp:SDP3004 dms:SDQ0000003-5ffda206-3331-422a-b6d8-34d2ea3e1286 .
 
-dm:SDQ000002 a wikibase:Item ;
-    rdfs:label "A wikifier file of crime data"@en ;
-    schema:name "A wikifier file of crime data"@en ;
-    skos:prefLabel "A wikifier file of crime data"@en ;
-    p:P127 wds:SDQ000002-18302e65-382b-488e-bed7-66dd9dce2adf ;
-    p:P31 wds:SDQ000002-ee3b37de-9017-4a46-af9d-2120d7b5c011 ;
-    dmp:SDP3003 dms:SDQ000002-695fdca7-bac4-436b-b027-b6b02e5b1ab8 ;
-    dmp:SDP3004 dms:SDQ000002-6094d5b0-c050-414c-9e93-e6afcf7865ee .
-
-dm:SDQ000003 a wikibase:Item ;
-    rdfs:label "A mapping file"@en ;
-    schema:name "A mapping file"@en ;
-    skos:prefLabel "A mapping file"@en ;
-    p:P127 wds:SDQ000003-1e4fe24a-3cbd-4446-a8e7-c0fa166c0755 ;
-    p:P170 wds:SDQ000003-7074250f-ff60-451c-ae8b-07a5d0053d47 ;
-    p:P31 wds:SDQ000003-4d25bbac-7cfb-413a-95d6-6495332a81c8 ;
-    dmp:SDP3003 dms:SDQ000003-7118c1b2-9841-42d6-850d-82d8e18a3c0c ;
-    dmp:SDP3004 dms:SDQ000003-da394eba-9969-4815-85db-fa849a771936 .
-
-dm:SDQ000004 a wikibase:Item ;
-    rdfs:label "Wikifier class"@en ;
-    schema:name "Wikifier class"@en ;
-    skos:prefLabel "Wikifier class"@en ;
-    p:P31 wds:SDQ000004-1d45299a-968c-429e-b4a3-8e55b694eb1d .
-
-dm:SDQ000005 a wikibase:Item ;
-    rdfs:label "Mapping file class"@en ;
-    schema:name "Mapping file class"@en ;
-    skos:prefLabel "Mapping file class"@en ;
-    p:P31 wds:SDQ000005-7a0d301c-fb41-4852-bb95-23908030b043 .
-
-dms:SDQ000001-05c02d91-7555-4553-b3f7-c9d4ad79fb71 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    pq:P1545 4.0 ;
-    pqn:P1545 dmv:Quantityc4c0c0c0 ;
-    pqv:P1545 dmv:Quantityc4c0c0c0 ;
-    ps:P170 :datamart ;
-    dmpq:SDP2006 "nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan"^^xsd:string ;
-    dmpq:SDP2007 wd:float ;
-    dmpq:SDP2008 schema:Float ;
-    dmps:SDP2005 "Rape (legacy definition)"^^xsd:string .
-
-dms:SDQ000001-0c4ca7b2-35b4-43a0-9046-76334766f353 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    pq:P1545 6.0 ;
-    pqn:P1545 dmv:Quantityc6c0c0c0 ;
-    pqv:P1545 dmv:Quantityc6c0c0c0 ;
-    ps:P170 :datamart ;
-    dmpq:SDP2006 "52.0 98.0 0.0 367.0 11.0 138.0 55.0 107.0 34.0 29.0 11.0 85.0 467.0 27.0 57.0 394.0 82.0 35.0 256.0 103.0 104.0 59.0 39.0 75.0 212.0 156.0 91.0 26.0 40.0 1.0 57.0 44.0 2.0 6.0 22.0 21.0 15.0 31.0 24.0 63.0 140.0 3.0 35.0 37.0 29.0 25.0 34.0 37.0 18.0 97.0 21.0 35.0 47.0"^^xsd:string ;
-    dmpq:SDP2007 wd:float ;
-    dmpq:SDP2008 schema:Float ;
-    dmps:SDP2005 "Aggravated assault"^^xsd:string .
-
-dms:SDQ000001-173844c3-e1cf-4032-a7bc-393d6ebd4ad5 a wikibase:Statement ;
+dms:SDQ0000001-09adb772-5aa3-40c4-bc53-856f47e973db a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     pq:P1545 2.0 ;
     pqn:P1545 dmv:Quantityc2c0c0c0 ;
@@ -190,50 +143,7 @@ dms:SDQ000001-173844c3-e1cf-4032-a7bc-393d6ebd4ad5 a wikibase:Statement ;
     dmpq:SDP2008 schema:Float ;
     dmps:SDP2005 "Murder and nonnegligent manslaughter"^^xsd:string .
 
-dms:SDQ000001-1cec4647-08c1-4540-ad0a-707ea0fb5ad0 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    pq:P1545 10.0 ;
-    pqn:P1545 dmv:Quantityc10c0c0c0 ;
-    pqv:P1545 dmv:Quantityc10c0c0c0 ;
-    ps:P170 :datamart ;
-    dmpq:SDP2006 "50.0 42.0 3.0 105.0 1.0 50.0 46.0 76.0 28.0 11.0 8.0 42.0 151.0 41.0 32.0 100.0 62.0 20.0 207.0 238.0 41.0 16.0 42.0 98.0 24.0 121.0 120.0 9.0 6.0 0.0 48.0 11.0 2.0 9.0 12.0 18.0 15.0 91.0 23.0 26.0 108.0 6.0 33.0 6.0 6.0 11.0 38.0 3.0 4.0 68.0 7.0 28.0 14.0"^^xsd:string ;
-    dmpq:SDP2007 wd:float ;
-    dmpq:SDP2008 schema:Float ;
-    dmps:SDP2005 "Motor vehicle theft"^^xsd:string .
-
-dms:SDQ000001-38af3c21-d4c0-42f6-ba8e-dcd6bec6df1e a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    pq:P1545 7.0 ;
-    pqn:P1545 dmv:Quantityc7c0c0c0 ;
-    pqv:P1545 dmv:Quantityc7c0c0c0 ;
-    ps:P170 :datamart ;
-    dmpq:SDP2006 "429.0 613.0 37.0 867.0 319.0 592.0 677.0 480.0 205.0 139.0 86.0 616.0 2659.0 285.0 326.0 1296.0 829.0 224.0 2257.0 2149.0 360.0 373.0 372.0 886.0 541.0 1234.0 908.0 124.0 140.0 89.0 387.0 105.0 38.0 145.0 153.0 174.0 151.0 910.0 248.0 428.0 736.0 36.0 300.0 126.0 183.0 217.0 454.0 116.0 100.0 708.0 131.0 137.0 137.0"^^xsd:string ;
-    dmpq:SDP2007 wd:float ;
-    dmpq:SDP2008 schema:Float ;
-    dmps:SDP2005 "Property crime"^^xsd:string .
-
-dms:SDQ000001-6b18d819-ac00-4479-b438-6eab4839ba35 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    dmps:SDP2004 "FBI, 2016, ALABAMA, metropolitan, Nonmetropolitan, violent crime, murder and nonnegligent manslaughter, rape, robbery, aggravated assault, property crime, burglary, larceny-theft, motor vehicle theft, arson"^^xsd:string .
-
-dms:SDQ000001-6e2a9cbe-3333-4842-a3fe-2af7a3763604 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    dmps:SDP3001 dm:SDQ000002 .
-
-dms:SDQ000001-8ea2a489-6643-4961-a9bb-d1672582d787 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    pq:P1545 9.0 ;
-    pqn:P1545 dmv:Quantityc9c0c0c0 ;
-    pqv:P1545 dmv:Quantityc9c0c0c0 ;
-    ps:P170 :datamart ;
-    dmpq:SDP2006 "233.0 342.0 14.0 501.0 181.0 295.0 408.0 255.0 106.0 55.0 44.0 395.0 919.0 190.0 189.0 807.0 565.0 108.0 1474.0 1299.0 198.0 165.0 206.0 537.0 303.0 726.0 526.0 65.0 87.0 53.0 192.0 47.0 27.0 96.0 73.0 102.0 84.0 574.0 161.0 229.0 403.0 20.0 182.0 49.0 105.0 115.0 227.0 62.0 69.0 430.0 68.0 65.0 59.0"^^xsd:string ;
-    dmpq:SDP2007 wd:float ;
-    dmpq:SDP2008 schema:Float ;
-    dmps:SDP2005 "Larceny-theft"^^xsd:string .
-
-dms:SDQ000001-91bfcd2e-8aab-40bc-a78e-4abdf9fb169c a wikibase:Statement ;
+dms:SDQ0000001-0a81b7d2-4414-4d7d-8a7a-60ee6fe2db1d a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     pq:P1545 5.0 ;
     pqn:P1545 dmv:Quantityc5c0c0c0 ;
@@ -244,18 +154,18 @@ dms:SDQ000001-91bfcd2e-8aab-40bc-a78e-4abdf9fb169c a wikibase:Statement ;
     dmpq:SDP2008 schema:Float ;
     dmps:SDP2005 "Robbery"^^xsd:string .
 
-dms:SDQ000001-939a9fb8-5d6f-4c67-9fbb-fe612820a0fb a wikibase:Statement ;
+dms:SDQ0000001-0c51c791-98f5-4c65-aec4-1b5d86d17e85 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    pq:P1545 3.0 ;
-    pqn:P1545 dmv:Quantityc3c0c0c0 ;
-    pqv:P1545 dmv:Quantityc3c0c0c0 ;
+    pq:P1545 6.0 ;
+    pqn:P1545 dmv:Quantityc6c0c0c0 ;
+    pqv:P1545 dmv:Quantityc6c0c0c0 ;
     ps:P170 :datamart ;
-    dmpq:SDP2006 "12.0 5.0 0.0 17.0 7.0 10.0 22.0 20.0 9.0 2.0 1.0 18.0 48.0 2.0 7.0 21.0 29.0 5.0 44.0 13.0 4.0 10.0 20.0 25.0 20.0 6.0 18.0 4.0 3.0 0.0 9.0 5.0 0.0 1.0 6.0 1.0 3.0 24.0 12.0 8.0 18.0 0.0 5.0 0.0 1.0 3.0 9.0 0.0 0.0 9.0 3.0 4.0 2.0"^^xsd:string ;
+    dmpq:SDP2006 "52.0 98.0 0.0 367.0 11.0 138.0 55.0 107.0 34.0 29.0 11.0 85.0 467.0 27.0 57.0 394.0 82.0 35.0 256.0 103.0 104.0 59.0 39.0 75.0 212.0 156.0 91.0 26.0 40.0 1.0 57.0 44.0 2.0 6.0 22.0 21.0 15.0 31.0 24.0 63.0 140.0 3.0 35.0 37.0 29.0 25.0 34.0 37.0 18.0 97.0 21.0 35.0 47.0"^^xsd:string ;
     dmpq:SDP2007 wd:float ;
     dmpq:SDP2008 schema:Float ;
-    dmps:SDP2005 "Rape (revised definition)"^^xsd:string .
+    dmps:SDP2005 "Aggravated assault"^^xsd:string .
 
-dms:SDQ000001-a5a99692-31a3-4209-ac5d-56a3c60f6ed1 a wikibase:Statement ;
+dms:SDQ0000001-1db0f4d0-4650-490e-adf4-4d536a14d2cf a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     pq:P1545 8.0 ;
     pqn:P1545 dmv:Quantityc8c0c0c0 ;
@@ -266,7 +176,34 @@ dms:SDQ000001-a5a99692-31a3-4209-ac5d-56a3c60f6ed1 a wikibase:Statement ;
     dmpq:SDP2008 schema:Float ;
     dmps:SDP2005 "Burglary"^^xsd:string .
 
-dms:SDQ000001-a804b4a1-7d21-4a2d-95da-947c15478d0d a wikibase:Statement ;
+dms:SDQ0000001-3b82f1f7-e6a2-4899-ae44-049db3094d42 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 4.0 ;
+    pqn:P1545 dmv:Quantityc4c0c0c0 ;
+    pqv:P1545 dmv:Quantityc4c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Rape (legacy definition)"^^xsd:string .
+
+dms:SDQ0000001-427ac2ce-6b03-49ca-ac6c-831601168adc a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3004 "91015f4d0ea533cb37dc7b46b6867e89"^^xsd:string .
+
+dms:SDQ0000001-4a3e9017-bd85-4c15-bcfa-a0330018e169 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 3.0 ;
+    pqn:P1545 dmv:Quantityc3c0c0c0 ;
+    pqv:P1545 dmv:Quantityc3c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "12.0 5.0 0.0 17.0 7.0 10.0 22.0 20.0 9.0 2.0 1.0 18.0 48.0 2.0 7.0 21.0 29.0 5.0 44.0 13.0 4.0 10.0 20.0 25.0 20.0 6.0 18.0 4.0 3.0 0.0 9.0 5.0 0.0 1.0 6.0 1.0 3.0 24.0 12.0 8.0 18.0 0.0 5.0 0.0 1.0 3.0 9.0 0.0 0.0 9.0 3.0 4.0 2.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Rape (revised definition)"^^xsd:string .
+
+dms:SDQ0000001-7a5e2985-a612-4123-a54a-251515cbe0e7 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     pq:P1545 0.0 ;
     pqn:P1545 dmv:Quantityc0c0c0c0 ;
@@ -277,7 +214,12 @@ dms:SDQ000001-a804b4a1-7d21-4a2d-95da-947c15478d0d a wikibase:Statement ;
     dmpq:SDP2008 schema:Text ;
     dmps:SDP2005 "County"^^xsd:string .
 
-dms:SDQ000001-b69bb9d2-7f31-4d6f-8596-63e36e2de9c6 a wikibase:Statement ;
+dms:SDQ0000001-86ab57a3-ff6f-435c-acea-1cf9cd92d652 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP2004 "FBI, 2016, ALABAMA, metropolitan, Nonmetropolitan, violent crime, murder and nonnegligent manslaughter, rape, robbery, aggravated assault, property crime, burglary, larceny-theft, motor vehicle theft, arson"^^xsd:string .
+
+dms:SDQ0000001-97315757-2d47-458f-9a03-fd0536066ab6 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     pq:P1545 11.0 ;
     pqn:P1545 dmv:Quantityc11c0c0c0 ;
@@ -288,12 +230,45 @@ dms:SDQ000001-b69bb9d2-7f31-4d6f-8596-63e36e2de9c6 a wikibase:Statement ;
     dmpq:SDP2008 schema:Float ;
     dmps:SDP2005 "Arson"^^xsd:string .
 
-dms:SDQ000001-cf352739-10ab-414c-ab3e-beae85cb14db a wikibase:Statement ;
+dms:SDQ0000001-a2b5d1dc-4631-4cd2-85be-530d063c3231 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 9.0 ;
+    pqn:P1545 dmv:Quantityc9c0c0c0 ;
+    pqv:P1545 dmv:Quantityc9c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "233.0 342.0 14.0 501.0 181.0 295.0 408.0 255.0 106.0 55.0 44.0 395.0 919.0 190.0 189.0 807.0 565.0 108.0 1474.0 1299.0 198.0 165.0 206.0 537.0 303.0 726.0 526.0 65.0 87.0 53.0 192.0 47.0 27.0 96.0 73.0 102.0 84.0 574.0 161.0 229.0 403.0 20.0 182.0 49.0 105.0 115.0 227.0 62.0 69.0 430.0 68.0 65.0 59.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Larceny-theft"^^xsd:string .
+
+dms:SDQ0000001-c7c06353-e195-4114-8798-97c240d607fd a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
-    dmps:SDP3002 dm:SDQ000003 .
+    dmps:SDP3002 dm:SDQ0000002 .
 
-dms:SDQ000001-f8aa8a44-b8f8-4852-a02f-2c70823fd010 a wikibase:Statement ;
+dms:SDQ0000001-cf0aa966-1238-49e4-a63c-ed51d16a4bbe a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 10.0 ;
+    pqn:P1545 dmv:Quantityc10c0c0c0 ;
+    pqv:P1545 dmv:Quantityc10c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "50.0 42.0 3.0 105.0 1.0 50.0 46.0 76.0 28.0 11.0 8.0 42.0 151.0 41.0 32.0 100.0 62.0 20.0 207.0 238.0 41.0 16.0 42.0 98.0 24.0 121.0 120.0 9.0 6.0 0.0 48.0 11.0 2.0 9.0 12.0 18.0 15.0 91.0 23.0 26.0 108.0 6.0 33.0 6.0 6.0 11.0 38.0 3.0 4.0 68.0 7.0 28.0 14.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Motor vehicle theft"^^xsd:string .
+
+dms:SDQ0000001-d704e87e-fb31-4098-90a8-79b842e97c06 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    pq:P1545 7.0 ;
+    pqn:P1545 dmv:Quantityc7c0c0c0 ;
+    pqv:P1545 dmv:Quantityc7c0c0c0 ;
+    ps:P170 :datamart ;
+    dmpq:SDP2006 "429.0 613.0 37.0 867.0 319.0 592.0 677.0 480.0 205.0 139.0 86.0 616.0 2659.0 285.0 326.0 1296.0 829.0 224.0 2257.0 2149.0 360.0 373.0 372.0 886.0 541.0 1234.0 908.0 124.0 140.0 89.0 387.0 105.0 38.0 145.0 153.0 174.0 151.0 910.0 248.0 428.0 736.0 36.0 300.0 126.0 183.0 217.0 454.0 116.0 100.0 708.0 131.0 137.0 137.0"^^xsd:string ;
+    dmpq:SDP2007 wd:float ;
+    dmpq:SDP2008 schema:Float ;
+    dmps:SDP2005 "Property crime"^^xsd:string .
+
+dms:SDQ0000001-e0879d3f-0f29-49fc-83c6-ccc0f2807455 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     pq:P1545 1.0 ;
     pqn:P1545 dmv:Quantityc1c0c0c0 ;
@@ -304,12 +279,22 @@ dms:SDQ000001-f8aa8a44-b8f8-4852-a02f-2c70823fd010 a wikibase:Statement ;
     dmpq:SDP2008 schema:Float ;
     dmps:SDP2005 "Violent crime"^^xsd:string .
 
-dms:SDQ000002-6094d5b0-c050-414c-9e93-e6afcf7865ee a wikibase:Statement ;
+dms:SDQ0000001-e946d39c-854a-4bfe-8347-c5e9ef06159d a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
-    dmps:SDP3004 "07d6436c69fc9a516e1651ddbe40e2ed"^^xsd:string .
+    dmps:SDP3001 dm:SDQ0000003 .
 
-dms:SDQ000002-695fdca7-bac4-436b-b027-b6b02e5b1ab8 a wikibase:Statement ;
+dms:SDQ0000002-3d914dd8-0148-40bc-8525-94da9b9e445b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3003 "{\"statementMapping\": {\"region\": [{\"left\": \"B\", \"right\": \"N\", \"top\": 6, \"bottom\": 60}], \"template\": {\"item\": \"item(B/$row)\", \"property\": \"item($col/6)\", \"value\": \"value($col/$row)\", \"qualifier\": [{\"property\": \"P585\", \"value\": 2016, \"calendar\": \"Q1985727\", \"precision\": \"year\", \"time_zone\": 0}]}}}"^^xsd:string .
+
+dms:SDQ0000002-70befeea-9be6-4071-815a-659e0929c340 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ps:P170 :datamart ;
+    dmps:SDP3004 "460f9e3022bc3627326d32393e4b31a2"^^xsd:string .
+
+dms:SDQ0000003-517a1e30-986f-4fff-a329-d30b39f12c75 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
     dmps:SDP3003 """column,row,value,qnode
@@ -378,36 +363,10 @@ dms:SDQ000002-695fdca7-bac4-436b-b027-b6b02e5b1ab8 a wikibase:Statement ;
 ,,Arson,P100032
 """^^xsd:string .
 
-dms:SDQ000003-7118c1b2-9841-42d6-850d-82d8e18a3c0c a wikibase:Statement ;
+dms:SDQ0000003-5ffda206-3331-422a-b6d8-34d2ea3e1286 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ps:P170 :datamart ;
-    dmps:SDP3003 """statementMapping:
-  region:
-    - left: B
-      right: N
-      top: 6
-      bottom: 60
-  template:
-    item: item(B/$row)
-    property: item($col/6)
-    value: value($col/$row)
-    qualifier:
-      - property: P585
-        value: 2016
-        calendar: Q1985727
-        precision: year
-        time_zone: 0"""^^xsd:string .
-
-dms:SDQ000003-da394eba-9969-4815-85db-fa849a771936 a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    ps:P170 :datamart ;
-    dmps:SDP3004 "460f9e3022bc3627326d32393e4b31a2"^^xsd:string .
-
-dm:SDQ000006 a wikibase:Item ;
-    rdfs:label "Datamart satellite"@en ;
-    schema:name "Datamart satellite"@en ;
-    skos:prefLabel "Datamart satellite"@en ;
-    p:P31 wds:SDQ000006-df0813de-81b8-43a6-afad-6b98339928d6 .
+    dmps:SDP3004 "07d6436c69fc9a516e1651ddbe40e2ed"^^xsd:string .
 
 dmv:Quantityc0c0c0c0 a wikibase:QuantityValue ;
     wikibase:quantityAmount 0.0 ;
