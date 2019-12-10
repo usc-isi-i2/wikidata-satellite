@@ -287,4 +287,4 @@ if __name__ == "__main__":
     if '-p' in args:
         # run to get property ttl
         doc = model.model_schema()
-        model.write_data(doc, 'property.ttl')
+        model.write_data(doc, 'schema.ttl')
