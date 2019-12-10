@@ -19,7 +19,7 @@
     ```
 3. Run these commands:
     ```
-    cd wikidata-satellite
+    cd wikidata-satellite/satellite
     pip install -r requirements.txt
     python dmg.py -c config.yaml [-p]
     ```
