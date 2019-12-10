@@ -1,5 +1,5 @@
 SPARQLWrapper==1.8.2
-PyYAML==3.13
+PyYAML==5.1
 pandas==0.23.4
 requests==2.19.1
 https://github.com/usc-isi-i2/etk/archive/wd-multi-ns.zip
